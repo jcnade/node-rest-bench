@@ -1,0 +1,24 @@
+{
+  "name": "node-rest-bench",
+  "version": "1.0.0",
+  "description": "node.js, express, request bench for tracting issue on ubuntu tcp stack",
+  "main": "report.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcnade/node-rest-bench.git"
+  },
+  "author": "Jean-Charles Nadé <jcnade@gmail.com> (http://www.jean-charles.net/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcnade/node-rest-bench/issues"
+  },
+  "homepage": "https://github.com/jcnade/node-rest-bench",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-http-proxy": "^0.6.0",
+    "request": "^2.67.0"
+  }
+}
