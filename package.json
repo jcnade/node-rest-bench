@@ -2,7 +2,7 @@
   "name": "node-rest-bench",
   "version": "1.0.0",
   "description": "node.js, express, request bench for tracting issue on ubuntu tcp stack",
-  "main": "report.js",
+  "main": "serverA.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,8 +17,12 @@
   },
   "homepage": "https://github.com/jcnade/node-rest-bench",
   "dependencies": {
+    "bouncy": "^3.2.2",
     "express": "^4.13.3",
     "express-http-proxy": "^0.6.0",
-    "request": "^2.67.0"
+    "hyperquest": "^1.2.0",
+    "keep-alive-agent": "0.0.1",
+    "request": "^2.67.0",
+    "spdy": "^3.0.0"
   }
 }

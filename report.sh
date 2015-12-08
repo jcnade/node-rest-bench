@@ -29,6 +29,9 @@ PID2="$(nohup node serverB.js > /dev/null 2>&1 & echo $!)"
 echo -e "\nStarting Server A (pid $PID1)"
 echo -e "Starting Server B (pid $PID2)\n"
 
+echo "NOT YET"
+
+#
 # Bench
 #
 
